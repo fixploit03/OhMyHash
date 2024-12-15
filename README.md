@@ -1,6 +1,6 @@
 ## OhMyHash
 
-`OhMyHash` adalah program Bash sederhana yang dirancang untuk menghitung nilai hash dari sebuah file menggunakan beberapa algoritma hashing, seperti MD5, SHA-1, SHA-256, dan SHA-512. 
+`OhMyHash` adalah program Bash sederhana yang dirancang untuk menghitung nilai [Hash](https://id.m.wikipedia.org/wiki/Hash) dari sebuah file menggunakan beberapa algoritma hashing, seperti [MD5](https://id.m.wikipedia.org/wiki/MD5), [SHA-1](https://en.m.wikipedia.org/wiki/SHA-1), [SHA-256](https://id.m.wikipedia.org/wiki/SHA-2), dan [SHA-512](https://id.m.wikipedia.org/wiki/SHA-2). 
 
 ## Instalasi 
 

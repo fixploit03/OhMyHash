@@ -48,9 +48,9 @@ Copyright (c) 2024 - Rofi (fixploit03)
 Penggunaan: /data/data/com.termux/files/usr/bin/ohmyhash [-f FILE|--file FILE] [ -s FILE|--simpan FILE] [OPSI]
 
 Opsi:
-        -f [FILE] atau --file [FILE]        : Nama file yang ingin dihitung nilai Hashnya
-        -s [FILE] atau --simpan [FILE]      : Nama file yang digunakan untuk menyimpan nilai Hashnya
-        -v atau --versi                     : Menampilkan versi OhMyHash
+        -f [FILE] atau --file [FILE]        : Menentukan nama file yang ingin dihitung nilai hash-nya.
+        -s [FILE] atau --simpan [FILE]      : Menentukan nama file tempat menyimpan hasil nilai hash.
+        -v atau --versi                     : Menampilkan versi program OhMyHash
         -b atau --bantuan                   : Menampilkan menu bantuan
 
 Contoh:

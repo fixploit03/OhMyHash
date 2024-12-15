@@ -49,17 +49,17 @@ ohmyhash --bantuan
 OhMyHash 1.0.0 - https://github.com/fixploit03/OhMyHash/
 Copyright (c) 2024 - Rofi (fixploit03)
 
-Penggunaan: /data/data/com.termux/files/usr/bin/ohmyhash [-f FILE|--file FILE] [ -s FILE|--simpan FILE] [OPSI]
+Penggunaan: ohmyhash [-f FILE|--file FILE] [ -s FILE|--simpan FILE] [OPSI]
 
 Opsi:
-        -f [FILE] atau --file [FILE]        : Menentukan nama file yang ingin dihitung nilai hash-nya.
-        -s [FILE] atau --simpan [FILE]      : Menentukan nama file tempat menyimpan hasil nilai hash.
-        -v atau --versi                     : Menampilkan versi program OhMyHash
-        -b atau --bantuan                   : Menampilkan menu bantuan
+	-f [FILE] atau --file [FILE]        : Menentukan nama file yang ingin dihitung nilai hash-nya.
+	-s [FILE] atau --simpan [FILE]      : Menentukan nama file tempat menyimpan hasil nilai hash.
+	-v atau --versi	                    : Menampilkan versi program OhMyHash
+	-b atau	--bantuan	            : Menampilkan menu bantuan
 
 Contoh:
-        - Penggunaan dasar: /data/data/com.termux/files/usr/bin/ohmyhash -f [FILE] atau /data/data/com.termux/files/usr/bin/ohmyhash --file [FILE]
-        - Menyimpan hasilnya kedalam file: /data/data/com.termux/files/usr/bin/ohmyhash -f [FILE] -s [FILE] atau /data/data/com.termux/files/usr/bin/ohmyhash --file [FILE] --simpan [FILE]
+	- Penggunaan dasar: ohmyhash -f [FILE] atau ohmyhash --file [FILE]
+	- Menyimpan hasilnya kedalam file: ohmyhash -f [FILE] -s [FILE] atau ohmyhash --file [FILE] --simpan [FILE]
 ```
 
 4. **Menampilkan Versi**

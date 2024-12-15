@@ -1,16 +1,16 @@
 #!/bin/bash
 # [OhMyHash.sh]
-# Hitung nilai Hash sebuah file
+# Hitung Nilai Hash Sebuah File
 
 program="OhMyHash"
-pembuat="fixploit03"
+pembuat="Rofi (fixploit03)"
 versi="1.0.0"
 github="https://github.com/fixploit03/OhMyHash/"
 
 
 function copyright(){
 	echo "${program} ${versi} - ${github}"
-	echo "Copyright (c) 2024 - Rofi (fixploit03)"
+	echo "Copyright (c) 2024 - ${pembuat}"
 	echo ""
 }
 

@@ -12,14 +12,17 @@ fi
 
 chmod +x "${file}"
 
+file_ex="src/ohmyhash"
+cp "${file}" "${file_ex}"
+
 # Sistem operasi
 so=$(uname -o)
 
 if [[ "${so}" == "Android" ]]; then
-	path="/data/data/com.termux/files/bin"
+	path="/data/data/com.termux/files/usr/bin"
 	echo "[*] Menginstal OhMyHash..."
 	sleep 3
-	cp "${file}" "${path}/ohmyhash"
+	cp "${file_ex}" "${path}"
 	echo "[+] OhMyHash berhasil diinstal."
 	sleep 1
 	echo "[+] Ketikkan 'ohmyhash --bantuan' untuk menjalankannya."
@@ -33,7 +36,7 @@ elif [[ "${so}" == "GNU/Linux" ]]; then
 	path="/usr/bin"
 	echo "[*] Menginstal OhMyHash..."
 	sleep 3
-	cp "${file}" "${path}/ohmyhash"
+	cp "${file_ex}" "${path}"
 	echo "[+] OhMyHash berhasil diinstal."
 	sleep 1
 	echo "[+] Ketikkan 'ohmyhash --bantuan' untuk menjalankannya."

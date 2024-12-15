@@ -16,7 +16,7 @@ function copyright(){
 
 function menu_bantuan(){
 	copyright
-	echo "Penggunaan: ${0} [-f FILE|--file FILE] [ -s FILE|--simpan FILE] [OPSI]"
+	echo "Penggunaan: ohmyhash [-f FILE|--file FILE] [ -s FILE|--simpan FILE] [OPSI]"
 	echo ""
 	echo "Opsi:"
 	echo "	-f [FILE] atau --file [FILE]        : Menentukan nama file yang ingin dihitung nilai hash-nya."
@@ -25,8 +25,8 @@ function menu_bantuan(){
 	echo "	-b atau	--bantuan	            : Menampilkan menu bantuan"
 	echo ""
 	echo "Contoh:"
-	echo "	- Penggunaan dasar: ${0} -f [FILE] atau ${0} --file [FILE]"
-	echo "	- Menyimpan hasilnya kedalam file: ${0} -f [FILE] -s [FILE] atau ${0} --file [FILE] --simpan [FILE]"
+	echo "	- Penggunaan dasar: ohmyhash -f [FILE] atau ohmyhash --file [FILE]"
+	echo "	- Menyimpan hasilnya kedalam file: ohmyhash -f [FILE] -s [FILE] atau ohmyhash --file [FILE] --simpan [FILE]"
 }
 
 if [[ "${#}" -gt 4 ]]; then

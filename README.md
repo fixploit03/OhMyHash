@@ -75,13 +75,13 @@ ohmyhash --versi
 
 ## Lisensi 
 
-Program ini dilisensikan di bawah [Lisensi MIT]()
+Program ini dilisensikan di bawah [Lisensi MIT](https://github.com/fixploit03/OhMyHash/blob/main/LICENSE)
 
 ## Dukungan 
 
 Jika Anda menyukai program ini atau merasa bahwa program ini bermanfaat, Anda dapat mendukung proyek ini dengan cara berikut:
 
 - Beri bintang pada repositori ini di GitHub untuk membantu orang lain menemukannya.
-- Beri umpan balik dengan membuka [issue]() atau memberikan saran perbaikan.
+- Beri umpan balik dengan membuka [issue](https://github.com/fixploit03/OhMyHash/issues) atau memberikan saran perbaikan.
 
 Terima kasih telah menggunakan **OhMyHash**! Semoga bermanfaat **^_^**.

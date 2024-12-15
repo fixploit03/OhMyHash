@@ -57,7 +57,7 @@ else
 				echo "[+] SHA-1: ${sha1}"
 				echo "[+] SHA-256: ${sha256}"
 				echo "[+] SHA-512: ${sha512}"
-				echo "[-] Nilai Hash file ${file} tidak disimpan. Untuk menyimpannya tambahkan opsi -s atau --simpan [FILE]."
+				echo "[-] Nilai Hash file '${file}' tidak disimpan. Untuk menyimpannya tambahkan opsi -s atau --simpan [FILE]."
 			else
 				echo "Error: File '${2}' tidak ditemukan."
 				exit 1
@@ -84,7 +84,7 @@ else
 					echo "[+] SHA-1: ${sha1}"
 					echo "[+] SHA-256: ${sha256}"
 					echo "[+] SHA-512: ${sha512}"
-					echo "[+] Nilai Hash file ${file} disimpan di: ${simpan}."
+					echo "[+] Nilai Hash file '${file}' disimpan di: ${simpan}."
 					{
 						copyright
 						echo "[+] Nama file: ${file}"
@@ -116,7 +116,7 @@ else
 					echo "[+] SHA-1: ${sha1}"
 					echo "[+] SHA-256: ${sha256}"
 					echo "[+] SHA-512: ${sha512}"
-					echo "[+] Nilai Hash file ${file} disimpan di: ${simpan}."
+					echo "[+] Nilai Hash file '${file}' disimpan di: ${simpan}."
 					{
 						copyright
 						echo "[+] Nama file: ${file}"

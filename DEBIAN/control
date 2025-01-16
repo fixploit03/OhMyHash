@@ -1,0 +1,7 @@
+Package: ohmyhash
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: fixploit03 <fixploit03@gmail.com>
+Description: OhMyHash adalah program Bash sederhana yang dirancang untuk menghitung nilai Hash dari sebuah file menggunakan beberapa algoritma hashing, seperti MD5, SHA-1, SHA-256, dan SHA-512.
